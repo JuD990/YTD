@@ -6,7 +6,7 @@
 
 ## 🚀 Features
 
-- ✅ Download YouTube **videos** in 720p, 1080p, or 2160p.
+- ✅ Download YouTube **videos** in 720p, 1080p, or 2160p(4k).
 - ✅ Extract and download **audio** in high-quality MP3 format.
 - ✅ Select and save a **default download folder**.
 - ✅ Progress tracking and live download logs.
