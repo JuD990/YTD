@@ -31,31 +31,50 @@
 ```bash
 git clone https://github.com/yourusername/YTD.git
 cd YTD
-
+```bash
 2. Create and Activate Virtual Environment (Optional but Recommended)
+```
 
+# On Linux
+```bash
 python -m venv buildenv
-source buildenv/bin/activate  # On Windows use: buildenv\Scripts\activate
+source buildenv/bin/activate
+```
+# On Windows/Mac use:
+```bash
+buildenv\Scripts\activate
+```
 
 3. Install Dependencies
 Create a requirements.txt file with the following contents:
+```bash
 PyQt5
 yt-dlp
+```
 
 Then install:
+```bash
 pip install -r requirements.txt
+```
 
 🖥️ Run the Application
+```bash
 python3 YTD.py
+```
 
 📦 Build Executable (Optional)
 To create a Windows executable using PyInstaller:
+```bash
 pyinstaller --noconfirm --onefile --windowed --add-data "<path_to_platforms>:platforms" YTD.py
+```
 
 Replace <path_to_platforms> with the actual path to the PyQt5 platforms directory, e.g.:
+```bash
 ./buildenv/lib/python3.12/site-packages/PyQt5/Qt5/plugins/platforms
+```
 
 📁 Folder Structure
+```bash
 YTD/
 ├── YTD.py                  # Main application file
 ├── downloads/              # Default folder for downloaded content
@@ -63,10 +82,13 @@ YTD/
 ├── buildenv/               # Virtual environment (excluded from Git)
 ├── .gitignore
 └── README.md
-```bash
-📃 License
+```
+
+## 📃 License
 MIT License - Use freely for personal or educational purposes.
 
 🙋‍♂️ Author
 Jude Adolfo
+```bash
 https://github.com/JuD990
+```
