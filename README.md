@@ -29,7 +29,7 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/YTD.git
+git clone https://github.com/JuD990/YTD.git
 cd YTD
 ```bash
 2. Create and Activate Virtual Environment (Optional but Recommended)
