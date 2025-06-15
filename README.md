@@ -35,13 +35,13 @@ cd YTD
 2. Create and Activate Virtual Environment (Optional but Recommended)
 ```
 ### 2. Operating System
-# Using Linux:
+#### Using Linux:
 ```bash
 rm -rf buildenv
 python3 -m venv buildenv
 source buildenv/bin/activate
 ```
-# Using Windows/Mac:
+#### Using Windows/Mac:
 ```bash
 buildenv\Scripts\activate
 ```
