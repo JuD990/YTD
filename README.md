@@ -37,6 +37,7 @@ cd YTD
 
 # On Linux
 ```bash
+rm -rf buildenv
 python3 -m venv buildenv
 source buildenv/bin/activate
 ```
