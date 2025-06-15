@@ -41,9 +41,24 @@ rm -rf buildenv
 python3 -m venv buildenv
 source buildenv/bin/activate
 ```
-#### Using Windows/Mac:
+#### Using Windows:
+  ##### Using CMD:
+  ```bash
+  rmdir /s /q buildenv
+  python -m venv buildenv
+  buildenv\Scripts\activate
+  ```
+  ##### Using PowerShell:
+  ```bash
+  Remove-Item -Recurse -Force buildenv
+  python -m venv buildenv
+  .\buildenv\Scripts\Activate.ps1
+  ```
+#### Using macOS:
 ```bash
-buildenv\Scripts\activate
+rm -rf buildenv
+python3 -m venv buildenv
+source buildenv/bin/activate
 ```
 
 ### 3. Install Dependencies
