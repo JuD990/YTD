@@ -46,7 +46,7 @@ source buildenv/bin/activate
 buildenv\Scripts\activate
 ```
 
-3. Install Dependencies
+### 3. Install Dependencies
 Create a requirements.txt file with the following contents:
 ```bash
 PyQt5
@@ -58,7 +58,7 @@ Then install:
 pip install -r requirements.txt
 ```
 
-🖥️ Run the Application
+### 4. Run the Application
 ```bash
 python3 YTD.py
 ```
