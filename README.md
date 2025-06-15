@@ -34,14 +34,14 @@ cd YTD
 ```bash
 2. Create and Activate Virtual Environment (Optional but Recommended)
 ```
-
-# On Linux
+### 2. Operating System
+# Using Linux:
 ```bash
 rm -rf buildenv
 python3 -m venv buildenv
 source buildenv/bin/activate
 ```
-# On Windows/Mac use:
+# Using Windows/Mac:
 ```bash
 buildenv\Scripts\activate
 ```
