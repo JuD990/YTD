@@ -35,27 +35,19 @@ cd YTD
 ### 2. Operating System
 #### 2.1 Using Linux:
 ```bash
-rm -rf buildenv
-python3 -m venv buildenv
 source buildenv/bin/activate
 ```
 #### 2.2 Using Windows:
   ##### 2.2.1 Using CMD:
   ```bash
-  rmdir /s /q buildenv
-  python -m venv buildenv
   buildenv\Scripts\activate
   ```
   ##### 2.2.2 Using PowerShell:
   ```bash
-  Remove-Item -Recurse -Force buildenv
-  python -m venv buildenv
   .\buildenv\Scripts\Activate.ps1
   ```
 #### 2.3 Using macOS:
 ```bash
-rm -rf buildenv
-python3 -m venv buildenv
 source buildenv/bin/activate
 ```
 
