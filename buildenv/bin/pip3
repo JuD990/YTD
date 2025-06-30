@@ -1,4 +1,4 @@
-#!/home/jud/python/my_py_projects/buildenv/bin/python3.12
+#!/home/jud/YTD/buildenv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
