@@ -35,7 +35,7 @@ cd YTD
 ### 2. Operating System
 #### 2.1 Using Linux:
 ```bash
-source buildenv/bin/activate
+./dist/YTD
 ```
 #### 2.2 Using Windows:
   ##### 2.2.1 Using CMD:
